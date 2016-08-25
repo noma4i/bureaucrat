@@ -26,8 +26,7 @@ defmodule Bureaucrat.Mixfile do
 
   defp deps do
     [
-     {:plug, "~> 0.14 or ~> 1.0"},
-     {:poison, github: "devinus/poison", branch: "master"}
+     {:plug, "~> 0.14 or ~> 1.0"}
     ]
   end
 
